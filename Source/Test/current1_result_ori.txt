@@ -1,0 +1,238 @@
+titanium:build toand$ ./dcol -i ../../Test/current1.arff -o ../../Test/current1 -A -d -D
+
+ DCoL  Copyright (C) 2009  Albert Orriols-Puig and Nuria Macia 
+ The DCoL comes with ABSOLUTELY NO WARRANTY; for details type `./dcol show w'. 
+ This is free software, and you are welcome to redistribute it 
+ under certain conditions; type `./dcol show c' for details. 
+
+
+
+  > PROCESSING COMPLEXITY MEASURES ON DATA SET: ../../Test/current1.arff
+
+    > Getting basic information from the database: ../../Test/current1.arff
+      > Number of attributes: 9
+      > Number of examples: 958
+
+    > Initializing parameters 
+
+    > Reading attributes 
+      > Type of representation: R
+      > Type of representation: R
+      > Type of representation: R
+      > Type of representation: R
+      > Type of representation: R
+      > Type of representation: R
+      > Type of representation: R
+      > Type of representation: R
+      > Type of representation: R
+
+    > Reading data 
+
+    > Transforming dates into numeric 
+
+    > Making statistics 
+      > Reserving memory for statistics 
+      > Reserving memory for min/max per class 
+
+    > Replacing missing values 
+
+    > Declaring a distance object for each input variable 
+    > Normalizing continuous attributes since NORMALIZED_EUCLIDEAN has been selected as distance function for continuous attributes 
+    > Creating an Euclidean distance function object 
+    > Creating an Euclidean distance function object 
+    > Creating an Euclidean distance function object 
+    > Creating an Euclidean distance function object 
+    > Creating an Euclidean distance function object 
+    > Creating an Euclidean distance function object 
+    > Creating an Euclidean distance function object 
+    > Creating an Euclidean distance function object 
+    > Creating an Euclidean distance function object 
+Cal distance matrix time: 25
+
+    > PRINTING THE ENVIRONMENT STATE 
+
+       Relation name: R_data_frame
+       Number of attributes: 9
+       Number of examples: 958
+       == Attribute 0: V1
+		 Type: R
+		 Minimum bound: -1598.3
+		 Maximum bound: 1532.4
+		 Class 0:   0  	 Avg + std  ( minVal - maxVal ) --> 	-43.5911 +  434.174 (-1598.3 - 1165.6 )
+		 Class 1:   1  	 Avg + std  ( minVal - maxVal ) --> 	 56.0268 +  434.632 (-1111.2 - 1532.4 )
+       == Attribute 1: V2
+		 Type: R
+		 Minimum bound: -1105.8
+		 Maximum bound: 1223.1
+		 Class 0:   0  	 Avg + std  ( minVal - maxVal ) --> 	-0.17364 +  365.294 (-1105.8 - 1223.1 )
+		 Class 1:   1  	 Avg + std  ( minVal - maxVal ) --> 	-10.3571 +  285.355 (-845.64 - 991.98 )
+       == Attribute 2: V3
+		 Type: R
+		 Minimum bound: -909.21
+		 Maximum bound: 1006.6
+		 Class 0:   0  	 Avg + std  ( minVal - maxVal ) --> 	  22.899 +  276.372 (-909.21 - 757.45 )
+		 Class 1:   1  	 Avg + std  ( minVal - maxVal ) --> 	  1.0831 +  259.108 (-742.76 - 1006.6 )
+       == Attribute 3: V4
+		 Type: R
+		 Minimum bound: -1502.6
+		 Maximum bound: 1842.1
+		 Class 0:   0  	 Avg + std  ( minVal - maxVal ) --> 	-25.0794 +  352.018 (-1019.1 - 793.1 )
+		 Class 1:   1  	 Avg + std  ( minVal - maxVal ) --> 	 51.3113 +  502.074 (-1502.6 - 1842.1 )
+       == Attribute 4: V5
+		 Type: R
+		 Minimum bound: -1380.1
+		 Maximum bound: 1054.4
+		 Class 0:   0  	 Avg + std  ( minVal - maxVal ) --> 	 25.2419 +   411.98 (-1380.1 - 1054.4 )
+		 Class 1:   1  	 Avg + std  ( minVal - maxVal ) --> 	 11.4144 +  327.949 (-943.71 - 987.29 )
+       == Attribute 5: V6
+		 Type: R
+		 Minimum bound: -1667.2
+		 Maximum bound: 1551.5
+		 Class 0:   0  	 Avg + std  ( minVal - maxVal ) --> 	-12.1359 +  344.255 (-963.82 - 990.78 )
+		 Class 1:   1  	 Avg + std  ( minVal - maxVal ) --> 	-43.7156 +  535.806 (-1667.2 - 1551.5 )
+       == Attribute 6: V7
+		 Type: R
+		 Minimum bound: -1202.5
+		 Maximum bound: 1437.2
+		 Class 0:   0  	 Avg + std  ( minVal - maxVal ) --> 	-39.6877 +  457.253 (-1202.5 - 1437.2 )
+		 Class 1:   1  	 Avg + std  ( minVal - maxVal ) --> 	-9.91385 +  265.297 (-675.32 - 887.2 )
+       == Attribute 7: V8
+		 Type: R
+		 Minimum bound: -1301
+		 Maximum bound: 1297.7
+		 Class 0:   0  	 Avg + std  ( minVal - maxVal ) --> 	 6.01466 +  476.388 (-1301 - 1297.7 )
+		 Class 1:   1  	 Avg + std  ( minVal - maxVal ) --> 	 14.6165 +  378.804 (-1133.7 - 1085.1 )
+       == Attribute 8: V9
+		 Type: R
+		 Minimum bound: -2354.9
+		 Maximum bound: 1795.4
+		 Class 0:   0  	 Avg + std  ( minVal - maxVal ) --> 	  21.886 +  447.191 (-1358.4 - 1138.1 )
+		 Class 1:   1  	 Avg + std  ( minVal - maxVal ) --> 	-45.0624 +  579.197 (-2354.9 - 1795.4 )
+       Class name: class
+       Number of classes: 2
+		 Class type: N
+		 Class values: 0; 1; 
+
+    > END OF PRINTING THE ENVIRONMENT STATE 
+
+Preparing data time: 32
+
+    > Processing the maximum Fisher's discriminant ratio (F1) 
+      > Fisher discr. ratio: 0.0262941
+F1 processing time: 0
+
+    > Processing the directional-vector maximum Fisher's discriminant ratio (F1v) 
+      > Organizing examples per class 
+        > Number of examples of class 0 0: 445
+        > Number of examples of class 1 1: 513
+      > Directional-vector maximum Fisher discr. ratio: 0.00247063
+F1v processing time: 3
+
+    > Processing the overlap of per-class bounding boxes (F2) 
+      > Volume overlap: 0.035651
+F2 processing time: 0
+
+    > Processing the efficiency of attributes (F3/F4) 
+      > Examples already organized per class 
+      > Discriminant power of attribute 0: 0.00730689
+      > Discriminant power of attribute 1: 0.00313152
+      > Discriminant power of attribute 2: 0.00208768
+      > Discriminant power of attribute 3: 0.0521921
+      > Discriminant power of attribute 4: 0.0104384
+      > Discriminant power of attribute 5: 0.0187891
+      > Discriminant power of attribute 6: 0.0501044
+      > Discriminant power of attribute 7: 0.00939457
+      > Discriminant power of attribute 8: 0.0146138
+      > Maximum (individual) efficiency of attributes: 0.0501044
+      > Collective efficiency of attributes: 0.168058
+F3 processing time: 0
+F4 processing time: 0
+
+    > Running SMO to get the linear classifier 
+      > Changing classes to -1, 1 
+      > Building the Support Vector Machine [progress line] 
+        ....................................................................
+      > Changing classes to 0, 1 
+SMO processing time: 14
+
+    > Processing the minimized sum of the error distance of a linear classifier (Linear SMO) (L1) 
+      > Changing classes to -1, 1 
+      > Testing SVM with the training examples 
+      > Error distance of a LC: 0.925222
+L1 processing time: 0
+
+    > Processing the training error of a linear classifier (Linear SMO) (L2) 
+      > Changing classes to -1, 1 
+      > Testing SVM with the training examples 
+      > Training error of a LC: 0.464509
+L2 processing time: 0
+
+    > Processing the nonlinearity of a linear classifier (Linear SMO) (L3) 
+      > Examples already organized per class 
+      > Generating 958 examples by means of interpolation 
+      > Examples already organized per class 
+        > Generating 958 examples of class 0
+        > Generating 958 examples of class 1
+      > Changing classes to -1, 1 
+      > Testing SVM with the test examples 
+      > Nonlinearity of a LC: 0.5
+L3 processing time: 1
+
+    > Destroying the support vector machine 
+
+    > Processing the fraction of points on the class boundary (N1) 
+      > Computing the minimum spanning tree [progress line] [x/100]: 
+        ...........................................................................................................
+        
+      > Number of nodes on the class boundary: 210
+      > Total number of nodes: 958
+      > Fraction of points on the class boundary: 0.219207
+N1 processing time: 9
+
+    > Processing the ratio of average intra/inter class nearest neighbor distance (N2) 
+      > Intra class distance: 195.192
+      > Inter class distance: 266.477
+      > Ratio of average intra/inter distance: 0.732491
+N2 processing time: 4
+
+    > Processing the leave-one-out error rate of the one-nearest neighbor classifier (N3) 
+      > Testing the 1NN with the training examples 
+        > Number of incorrect classifications: 117
+        > Number of classifications: 958
+      > Error rate of the 1NN: 0.122129
+N3 processing time: 5
+
+    > Processing the nonlinearity of the one-nearest neighbor classifier (N4) 
+      > Examples already organized per class 
+      > Generating 958 examples by means of interpolation 
+      > Examples already organized per class 
+        > Generating 958 examples of class 0
+        > Generating 958 examples of class 1
+      > Testing the 1NN with the test examples 
+        > Number of incorrect classifications: 362
+        > Number of classifications: 1916
+      > Nonlinearity of the 1NN: 0.188935
+N4 processing time: 95
+
+    > Processing the fraction of maximum covering spheres (T1) 
+      > Examples already organized per class 
+      > Searching the nearest neighbors of another class 
+      > Calculating adherence subsets 
+      > Eliminating adherence subsets that are included in others 
+      > Fraction max. cov. spheres (numSpheres - meanSpheres - stdSpheres): 0.998956 ( 957 2.67607 1.45489 ) 
+T1 processing time: 6
+
+    > Processing the average number of points per dimension (T2) 
+      > Number of points per dimension: 106.444
+T2 processing time: 0
+Total processing time: 137
+
+
+    > DESTROYING THE EXTENDED DATASET 
+      > ExtendedDataset destroyed 
+
+
+    > DESTROYING THE DATASET
+      > Dataset destroyed
+
+  > END OF COMPLEXITY MEASURES PROCESSING 

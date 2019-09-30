@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage{longtable}
+
+\begin{document}
+
+\begin{center}
+\footnotesize{             % Font size. Reduce the font size (\scriptsize or \tiny), if the table is too wide.
+\setlength\LTleft{-100pt}  % Left margin. Adjust the value to center the table.
+
+\begin{longtable}{lrrrrrrrrrrrrrr}
+
+% First header
+\caption[Complexity measures]{Summary of the complexity measures computation} \\
+\label{tab:CMresults} \\
+\hline
+\textbf{Data set name} & \textbf{F1} & \textbf{F1v} & \textbf{F2} & \textbf{F3} & \textbf{F4} & \textbf{L1} & \textbf{L2} & \textbf{L3} & \textbf{N1} & \textbf{N2} & \textbf{N3} & \textbf{N4} & \textbf{T1} & \textbf{T2} \\
+\hline
+\hline
+\endfirsthead
+
+% Next headers
+\multicolumn{15}{c}{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+\hline
+\textbf{Data set name} & \textbf{F1} & \textbf{F1v} & \textbf{F2} & \textbf{F3} & \textbf{F4} & \textbf{L1} & \textbf{L2} & \textbf{L3} & \textbf{N1} & \textbf{N2} & \textbf{N3} & \textbf{N4} & \textbf{T1} & \textbf{T2} \\
+\hline
+\hline
+\endhead
+
+% First footer
+\hline
+\multicolumn{15}{r}{{Continued on next page}} \\
+\hline
+\endfoot
+
+% Last footer
+\hline
+\hline
+\endlastfoot
+
+../../Test/current1.arff      & 0.026 & 0.002 & 0.036 & 0.050 & 0.168 & 0.925 & 0.465 & 0.500 & 0.219 & 0.732 & 0.122 & 0.189 & 0.999 & 106.444 \\
+\hline
+
+\end{longtable}
+
+}
+\end{center}
+
+\end{document}
